@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
+#import "Utilities.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<AVCaptureVideoDataOutputSampleBufferDelegate> {
+    
+}
+@property (retain, nonatomic) IBOutlet UIImageView *cameraImage;
+@property (retain, nonatomic) IBOutlet UIScrollView *filterScroll;
 
 @end
