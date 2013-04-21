@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81FBB6B317052AA50019202F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6B217052AA50019202F /* UIKit.framework */; };
-		81FBB6B517052AA50019202F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6B417052AA50019202F /* Foundation.framework */; };
-		81FBB6B717052AA50019202F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6B617052AA50019202F /* CoreGraphics.framework */; };
+		816E72C9170FB6D7007CF323 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816E72C8170FB6D7007CF323 /* CoreImage.framework */; };
+		816E72CC170FCBB0007CF323 /* UIImage+ColouredButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E72CB170FCBB0007CF323 /* UIImage+ColouredButton.m */; };
+		819636A3170990DA00E3C1A7 /* marsOverlay1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8196369F170990DA00E3C1A7 /* marsOverlay1.png */; };
+		819636A4170990DA00E3C1A7 /* marsOverlay2.png in Resources */ = {isa = PBXBuildFile; fileRef = 819636A0170990DA00E3C1A7 /* marsOverlay2.png */; };
+		819636A5170990DA00E3C1A7 /* marsOverlay3.png in Resources */ = {isa = PBXBuildFile; fileRef = 819636A1170990DA00E3C1A7 /* marsOverlay3.png */; };
+		819636A6170990DA00E3C1A7 /* marsOverlay4.png in Resources */ = {isa = PBXBuildFile; fileRef = 819636A2170990DA00E3C1A7 /* marsOverlay4.png */; };
+		819636A9170994FE00E3C1A7 /* marsSky.png in Resources */ = {isa = PBXBuildFile; fileRef = 819636A8170994FE00E3C1A7 /* marsSky.png */; };
+		8197A4131720435F000D91AF /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197A4121720435F000D91AF /* MessageUI.framework */; };
+		8197A4161720445E000D91AF /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197A4151720445E000D91AF /* Social.framework */; };
+		81B817B7170FD1D300B3A146 /* marsBorder.png in Resources */ = {isa = PBXBuildFile; fileRef = 81B817B6170FD1D300B3A146 /* marsBorder.png */; };
+		81BB523717096BC700B1E116 /* WeatherInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BB523617096BC700B1E116 /* WeatherInfo.m */; };
+		81BB523A1709726500B1E116 /* April 1,2013.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81BB52391709726500B1E116 /* April 1,2013.txt */; };
+		81BB52421709752400B1E116 /* Layout2.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BB52411709752400B1E116 /* Layout2.m */; };
+		81BB5244170977DC00B1E116 /* layout2BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BB5243170977DC00B1E116 /* layout2BG.png */; };
+		81BB524617097CEB00B1E116 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BB524517097CEB00B1E116 /* down.png */; };
+		81BB5248170980D100B1E116 /* marsOverlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 81BB5247170980D100B1E116 /* marsOverlay.png */; };
+		81BB524B1709838600B1E116 /* Layout3.m in Sources */ = {isa = PBXBuildFile; fileRef = 81BB524A1709838600B1E116 /* Layout3.m */; };
 		81FBB6BD17052AA50019202F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6BB17052AA50019202F /* InfoPlist.strings */; };
 		81FBB6BF17052AA50019202F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB6BE17052AA50019202F /* main.m */; };
 		81FBB6C317052AA50019202F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB6C217052AA50019202F /* AppDelegate.m */; };
@@ -18,9 +32,48 @@
 		81FBB6C917052AA50019202F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6C817052AA50019202F /* Default-568h@2x.png */; };
 		81FBB6CC17052AA50019202F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB6CB17052AA50019202F /* ViewController.m */; };
 		81FBB6CF17052AA50019202F /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6CD17052AA50019202F /* ViewController.xib */; };
+		81FBB6E717052CF30019202F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6E517052CBB0019202F /* QuartzCore.framework */; };
+		81FBB6E817052CF30019202F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6E317052CB50019202F /* AVFoundation.framework */; };
+		81FBB6E917052CF30019202F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6E117052CAD0019202F /* CoreMedia.framework */; };
+		81FBB6EA17052CF30019202F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6DF17052CA80019202F /* CoreVideo.framework */; };
+		81FBB6EB17052CF30019202F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6DD17052CA30019202F /* ImageIO.framework */; };
+		81FBB6EC17052CF30019202F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6B217052AA50019202F /* UIKit.framework */; };
+		81FBB6ED17052CF30019202F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6B417052AA50019202F /* Foundation.framework */; };
+		81FBB6EE17052CF30019202F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FBB6B617052AA50019202F /* CoreGraphics.framework */; };
+		81FBB6F117052FEB0019202F /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB6F017052D650019202F /* Utilities.m */; };
+		81FBB6F51706E1FE0019202F /* Layout1.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FBB6F41706E1FE0019202F /* Layout1.m */; };
+		81FBB6F81706E60A0019202F /* sunrise.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6F71706E60A0019202F /* sunrise.png */; };
+		81FBB6FA1706E8A40019202F /* sunset.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6F91706E8A40019202F /* sunset.png */; };
+		81FBB6FE1706EB490019202F /* temperature.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6FB1706EB490019202F /* temperature.png */; };
+		81FBB6FF1706EB490019202F /* temperatureMax.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6FC1706EB490019202F /* temperatureMax.png */; };
+		81FBB7001706EB490019202F /* temperatureMin.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB6FD1706EB490019202F /* temperatureMin.png */; };
+		81FBB7021706ED830019202F /* sunny.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB7011706ED830019202F /* sunny.png */; };
+		81FBB7041706F30A0019202F /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB7031706F30A0019202F /* wind.png */; };
+		81FBB70617074A5B0019202F /* March 29,2012.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81FBB70517074A5B0019202F /* March 29,2012.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		816E72C8170FB6D7007CF323 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		816E72CA170FCBB0007CF323 /* UIImage+ColouredButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColouredButton.h"; sourceTree = "<group>"; };
+		816E72CB170FCBB0007CF323 /* UIImage+ColouredButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColouredButton.m"; sourceTree = "<group>"; };
+		8196369F170990DA00E3C1A7 /* marsOverlay1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsOverlay1.png; sourceTree = "<group>"; };
+		819636A0170990DA00E3C1A7 /* marsOverlay2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsOverlay2.png; sourceTree = "<group>"; };
+		819636A1170990DA00E3C1A7 /* marsOverlay3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsOverlay3.png; sourceTree = "<group>"; };
+		819636A2170990DA00E3C1A7 /* marsOverlay4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsOverlay4.png; sourceTree = "<group>"; };
+		819636A8170994FE00E3C1A7 /* marsSky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsSky.png; sourceTree = "<group>"; };
+		8197A4121720435F000D91AF /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		8197A4151720445E000D91AF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		81B817B6170FD1D300B3A146 /* marsBorder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsBorder.png; sourceTree = "<group>"; };
+		81BB523517096BC700B1E116 /* WeatherInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherInfo.h; sourceTree = "<group>"; };
+		81BB523617096BC700B1E116 /* WeatherInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherInfo.m; sourceTree = "<group>"; };
+		81BB52391709726500B1E116 /* April 1,2013.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "April 1,2013.txt"; sourceTree = "<group>"; };
+		81BB52401709752400B1E116 /* Layout2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Layout2.h; path = Layout/Layout2.h; sourceTree = "<group>"; };
+		81BB52411709752400B1E116 /* Layout2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Layout2.m; path = Layout/Layout2.m; sourceTree = "<group>"; };
+		81BB5243170977DC00B1E116 /* layout2BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = layout2BG.png; sourceTree = "<group>"; };
+		81BB524517097CEB00B1E116 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		81BB5247170980D100B1E116 /* marsOverlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marsOverlay.png; sourceTree = "<group>"; };
+		81BB52491709838600B1E116 /* Layout3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Layout3.h; path = Layout/Layout3.h; sourceTree = "<group>"; };
+		81BB524A1709838600B1E116 /* Layout3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Layout3.m; path = Layout/Layout3.m; sourceTree = "<group>"; };
 		81FBB6AE17052AA50019202F /* Instaweather From Mars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instaweather From Mars.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81FBB6B217052AA50019202F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		81FBB6B417052AA50019202F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +90,23 @@
 		81FBB6CA17052AA50019202F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		81FBB6CB17052AA50019202F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		81FBB6CE17052AA50019202F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		81FBB6DD17052CA30019202F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		81FBB6DF17052CA80019202F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		81FBB6E117052CAD0019202F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		81FBB6E317052CB50019202F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		81FBB6E517052CBB0019202F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		81FBB6EF17052D650019202F /* Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		81FBB6F017052D650019202F /* Utilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		81FBB6F31706E1FE0019202F /* Layout1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Layout1.h; path = Layout/Layout1.h; sourceTree = "<group>"; };
+		81FBB6F41706E1FE0019202F /* Layout1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Layout1.m; path = Layout/Layout1.m; sourceTree = "<group>"; };
+		81FBB6F71706E60A0019202F /* sunrise.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunrise.png; sourceTree = "<group>"; };
+		81FBB6F91706E8A40019202F /* sunset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunset.png; sourceTree = "<group>"; };
+		81FBB6FB1706EB490019202F /* temperature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temperature.png; sourceTree = "<group>"; };
+		81FBB6FC1706EB490019202F /* temperatureMax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temperatureMax.png; sourceTree = "<group>"; };
+		81FBB6FD1706EB490019202F /* temperatureMin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temperatureMin.png; sourceTree = "<group>"; };
+		81FBB7011706ED830019202F /* sunny.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunny.png; sourceTree = "<group>"; };
+		81FBB7031706F30A0019202F /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		81FBB70517074A5B0019202F /* March 29,2012.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "March 29,2012.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +114,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81FBB6B317052AA50019202F /* UIKit.framework in Frameworks */,
-				81FBB6B517052AA50019202F /* Foundation.framework in Frameworks */,
-				81FBB6B717052AA50019202F /* CoreGraphics.framework in Frameworks */,
+				8197A4161720445E000D91AF /* Social.framework in Frameworks */,
+				8197A4131720435F000D91AF /* MessageUI.framework in Frameworks */,
+				816E72C9170FB6D7007CF323 /* CoreImage.framework in Frameworks */,
+				81FBB6E717052CF30019202F /* QuartzCore.framework in Frameworks */,
+				81FBB6E817052CF30019202F /* AVFoundation.framework in Frameworks */,
+				81FBB6E917052CF30019202F /* CoreMedia.framework in Frameworks */,
+				81FBB6EA17052CF30019202F /* CoreVideo.framework in Frameworks */,
+				81FBB6EB17052CF30019202F /* ImageIO.framework in Frameworks */,
+				81FBB6EC17052CF30019202F /* UIKit.framework in Frameworks */,
+				81FBB6ED17052CF30019202F /* Foundation.framework in Frameworks */,
+				81FBB6EE17052CF30019202F /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +134,11 @@
 		81FBB6A317052AA50019202F = {
 			isa = PBXGroup;
 			children = (
+				8197A4151720445E000D91AF /* Social.framework */,
+				8197A4121720435F000D91AF /* MessageUI.framework */,
+				816E72C8170FB6D7007CF323 /* CoreImage.framework */,
+				81BB52391709726500B1E116 /* April 1,2013.txt */,
+				81FBB70517074A5B0019202F /* March 29,2012.txt */,
 				81FBB6B817052AA50019202F /* Instaweather From Mars */,
 				81FBB6B117052AA50019202F /* Frameworks */,
 				81FBB6AF17052AA50019202F /* Products */,
@@ -73,6 +156,11 @@
 		81FBB6B117052AA50019202F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				81FBB6E517052CBB0019202F /* QuartzCore.framework */,
+				81FBB6E317052CB50019202F /* AVFoundation.framework */,
+				81FBB6E117052CAD0019202F /* CoreMedia.framework */,
+				81FBB6DF17052CA80019202F /* CoreVideo.framework */,
+				81FBB6DD17052CA30019202F /* ImageIO.framework */,
 				81FBB6B217052AA50019202F /* UIKit.framework */,
 				81FBB6B417052AA50019202F /* Foundation.framework */,
 				81FBB6B617052AA50019202F /* CoreGraphics.framework */,
@@ -83,12 +171,20 @@
 		81FBB6B817052AA50019202F /* Instaweather From Mars */ = {
 			isa = PBXGroup;
 			children = (
+				81FBB6F61706E60A0019202F /* Icons */,
+				81FBB6F21706E1D30019202F /* Layout */,
+				81FBB6EF17052D650019202F /* Utilities.h */,
+				81FBB6F017052D650019202F /* Utilities.m */,
 				81FBB6C117052AA50019202F /* AppDelegate.h */,
 				81FBB6C217052AA50019202F /* AppDelegate.m */,
 				81FBB6CA17052AA50019202F /* ViewController.h */,
 				81FBB6CB17052AA50019202F /* ViewController.m */,
 				81FBB6CD17052AA50019202F /* ViewController.xib */,
 				81FBB6B917052AA50019202F /* Supporting Files */,
+				81BB523517096BC700B1E116 /* WeatherInfo.h */,
+				81BB523617096BC700B1E116 /* WeatherInfo.m */,
+				816E72CA170FCBB0007CF323 /* UIImage+ColouredButton.h */,
+				816E72CB170FCBB0007CF323 /* UIImage+ColouredButton.m */,
 			);
 			path = "Instaweather From Mars";
 			sourceTree = "<group>";
@@ -105,6 +201,42 @@
 				81FBB6C817052AA50019202F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81FBB6F21706E1D30019202F /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				81FBB6F31706E1FE0019202F /* Layout1.h */,
+				81FBB6F41706E1FE0019202F /* Layout1.m */,
+				81BB52401709752400B1E116 /* Layout2.h */,
+				81BB52411709752400B1E116 /* Layout2.m */,
+				81BB52491709838600B1E116 /* Layout3.h */,
+				81BB524A1709838600B1E116 /* Layout3.m */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		81FBB6F61706E60A0019202F /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				81B817B6170FD1D300B3A146 /* marsBorder.png */,
+				819636A8170994FE00E3C1A7 /* marsSky.png */,
+				8196369F170990DA00E3C1A7 /* marsOverlay1.png */,
+				819636A0170990DA00E3C1A7 /* marsOverlay2.png */,
+				819636A1170990DA00E3C1A7 /* marsOverlay3.png */,
+				819636A2170990DA00E3C1A7 /* marsOverlay4.png */,
+				81BB5247170980D100B1E116 /* marsOverlay.png */,
+				81BB524517097CEB00B1E116 /* down.png */,
+				81BB5243170977DC00B1E116 /* layout2BG.png */,
+				81FBB7031706F30A0019202F /* wind.png */,
+				81FBB7011706ED830019202F /* sunny.png */,
+				81FBB6FB1706EB490019202F /* temperature.png */,
+				81FBB6FC1706EB490019202F /* temperatureMax.png */,
+				81FBB6FD1706EB490019202F /* temperatureMin.png */,
+				81FBB6F91706E8A40019202F /* sunset.png */,
+				81FBB6F71706E60A0019202F /* sunrise.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +295,24 @@
 				81FBB6C717052AA50019202F /* Default@2x.png in Resources */,
 				81FBB6C917052AA50019202F /* Default-568h@2x.png in Resources */,
 				81FBB6CF17052AA50019202F /* ViewController.xib in Resources */,
+				81FBB6F81706E60A0019202F /* sunrise.png in Resources */,
+				81FBB6FA1706E8A40019202F /* sunset.png in Resources */,
+				81FBB6FE1706EB490019202F /* temperature.png in Resources */,
+				81FBB6FF1706EB490019202F /* temperatureMax.png in Resources */,
+				81FBB7001706EB490019202F /* temperatureMin.png in Resources */,
+				81FBB7021706ED830019202F /* sunny.png in Resources */,
+				81FBB7041706F30A0019202F /* wind.png in Resources */,
+				81FBB70617074A5B0019202F /* March 29,2012.txt in Resources */,
+				81BB523A1709726500B1E116 /* April 1,2013.txt in Resources */,
+				81BB5244170977DC00B1E116 /* layout2BG.png in Resources */,
+				81BB524617097CEB00B1E116 /* down.png in Resources */,
+				81BB5248170980D100B1E116 /* marsOverlay.png in Resources */,
+				819636A3170990DA00E3C1A7 /* marsOverlay1.png in Resources */,
+				819636A4170990DA00E3C1A7 /* marsOverlay2.png in Resources */,
+				819636A5170990DA00E3C1A7 /* marsOverlay3.png in Resources */,
+				819636A6170990DA00E3C1A7 /* marsOverlay4.png in Resources */,
+				819636A9170994FE00E3C1A7 /* marsSky.png in Resources */,
+				81B817B7170FD1D300B3A146 /* marsBorder.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +325,13 @@
 			files = (
 				81FBB6BF17052AA50019202F /* main.m in Sources */,
 				81FBB6C317052AA50019202F /* AppDelegate.m in Sources */,
+				81FBB6F117052FEB0019202F /* Utilities.m in Sources */,
 				81FBB6CC17052AA50019202F /* ViewController.m in Sources */,
+				81FBB6F51706E1FE0019202F /* Layout1.m in Sources */,
+				81BB523717096BC700B1E116 /* WeatherInfo.m in Sources */,
+				81BB52421709752400B1E116 /* Layout2.m in Sources */,
+				81BB524B1709838600B1E116 /* Layout3.m in Sources */,
+				816E72CC170FCBB0007CF323 /* UIImage+ColouredButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +407,14 @@
 		81FBB6D317052AA50019202F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Instaweather From Mars/Instaweather From Mars-Prefix.pch";
 				INFOPLIST_FILE = "Instaweather From Mars/Instaweather From Mars-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -262,10 +422,14 @@
 		81FBB6D417052AA50019202F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Instaweather From Mars/Instaweather From Mars-Prefix.pch";
 				INFOPLIST_FILE = "Instaweather From Mars/Instaweather From Mars-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -289,6 +453,7 @@
 				81FBB6D417052AA50019202F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

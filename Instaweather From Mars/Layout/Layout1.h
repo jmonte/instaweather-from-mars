@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+#import "WeatherInfo.h"
+
 @interface Layout1 : UIView
+
+
+@property (nonatomic , assign) WeatherInfo *weatherInfo;
 
 @property (nonatomic , assign) UILabel *sunrise;
 @property (nonatomic , assign) UILabel *sunset;
@@ -23,6 +28,11 @@
 @property (nonatomic , assign) UILabel *weather;
 
 @property (nonatomic , assign) UILabel *sol;
+
+
+
+@property (nonatomic , assign) UILabel *windDirection;
+@property (nonatomic , assign) UILabel *windSpeed;
 
 
 @end

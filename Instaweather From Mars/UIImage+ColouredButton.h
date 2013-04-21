@@ -1,13 +1,17 @@
-//
-//  ImageCat.h
-//  Instaweather From Mars
-//
-//  Created by Jeffrey Monte on 6/4/13.
-//  Copyright (c) 2013 Jeffrey Monte. All rights reserved.
-//
+#import <UIKit/UIKit.h>
 
-#import <Foundation/Foundation.h>
+@interface UIImage (Color)
 
-@interface ImageCat : NSObject
++ (UIImage*)setBackgroundImageByColor:(UIColor *)backgroundColor withFrame:(CGRect )rect;
+
+
++ (UIImage*) replaceColor:(UIColor*)color inImage:(UIImage*)image withTolerance:(float)tolerance;
+
++(UIImage *)changeWhiteColorTransparent: (UIImage *)image;
+
++(UIImage *)changeColorTo:(NSMutableArray*) array Transparent: (UIImage *)image;
+
+//resizing Stuff...
++ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
 
 @end
